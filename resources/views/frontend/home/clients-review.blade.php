@@ -77,40 +77,6 @@
             </div>
         </div>
     </div>
-    <div  class="lg:mt-2 md:mt-2 mt-10 relative items-center w-full px-5 pt-10 pb-1 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-2">
-        <div class="flex w-full mx-auto text-left">
-            <div class="relative inline-flex items-center mx-auto align-middle">
-                <div class="text-center">
-                    <div class="mt-5 sm:flex md:mt-8">
-                        <div class="">
-                            <button class="hover:text-white rounded-full lg:px-10 lg:py-5 md:px-10 md:py-5 px-4 py-3 lg:mb-0 md:mb-0 mb-4 text-black hover:bg-main hover:border-main border border-black  font-semibold">
-                                <div class="flex gap-3 justify-center items-center">
-                                    <span class="">Book a demo</span>
-                                    <span>
-                                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                          <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                      </svg>
-                                  </span>
-                                </div>
-                            </button>
-                        </div>
-                        <div class="mt-3  sm:mt-0 sm:ml-3">
-                            <button class="hover:text-white lg:px-10 lg:py-5 md:px-10 md:py-5 px-4 py-3 text-black hover:bg-main hover:border-main border border-black rounded-full font-semibold">
-                                <div class="flex gap-3 justify-center items-center">
-                                    <span class="lg:text-xl md:text-xl text-lg">Calculate mobile app ROI</span>
-                                    <span>
-                                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                          <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                      </svg>
-                                  </span>
-                                </div>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="slider pt-8 pb-80">
         <div class="slide-track gap-0">
             <div class="slide">
@@ -323,6 +289,41 @@
         </div>
     </div>
     @include('frontend.home.clients-review-reverse')
+    <div  class="lg:mt-10 md:mt-2 mt-2 relative items-center w-full px-5 pt-10 pb-1 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-2">
+        <div class="flex w-full mx-auto text-left">
+            <div class="relative inline-flex items-center mx-auto align-middle">
+                <div class="text-center">
+                    <div class="mt-5 sm:flex md:mt-8">
+                        <div class="">
+                            <button class="hover:text-white rounded-full lg:px-10 lg:py-5 md:px-10 md:py-5 px-4 py-3 lg:mb-0 md:mb-0 mb-4 text-black hover:bg-main hover:border-main border border-black  font-semibold">
+                                <div class="flex gap-3 justify-center items-center">
+                                    <span class="">Book a demo</span>
+                                    <span>
+                                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                      </svg>
+                                  </span>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="mt-3  sm:mt-0 sm:ml-3">
+                            <button class="hover:text-white lg:px-10 lg:py-5 md:px-10 md:py-5 px-4 py-3 text-black hover:bg-main hover:border-main border border-black rounded-full font-semibold">
+                                <div class="flex gap-3 justify-center items-center">
+                                    <span class="lg:text-xl md:text-xl text-lg">Calculate mobile app ROI</span>
+                                    <span>
+                                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                      </svg>
+                                  </span>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </section>
 
 
