@@ -12,6 +12,7 @@ module.exports = {
             main: '#c4ad8f',
         },
     },
+    
     plugins: [
         require('flowbite/plugin')
     ],

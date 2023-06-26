@@ -42,8 +42,4 @@
     <div class="video-docker absolute lg:pb-0 md:pb-0 pb-0 lg:w-[70%] lg:h-[70%] md:w-[70%] md:h-[70%] w-[90%] h-[50%] overflow-hidden">
         <video class="min-w-full min-h-full absolute object-cover" src="{{asset('assets/video/What we do in 60 seconds.mp4')}}" type="video/mp4" autoplay muted loop></video>
     </div>
-    {{--<div class="video-content space-y-2">
-        <h1 class="font-light text-6xl">full Hero Video</h1>
-        <h3 class="font-light text-3xl">with TailwindCSS</h3>
-    </div>--}}
 </section>

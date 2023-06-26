@@ -70,6 +70,34 @@
     <section>
         @include('frontend.home.customer-review')
     </section>
+    <section>
+        @include('frontend.home.clients-review')
+    </section>
+    <section>
+        @include('frontend.home.mobile-visitors')
+    </section>
+    <section>
+        @include('frontend.home.favourite-ecommerce')
+    </section>
+    <section>
+        @include('frontend.home.premium-quality')
+    </section>
+
+    <section>
+        @include('frontend.home.improve-B2B')
+    </section>
+
+    <section>
+        @include('frontend.home.eco-system')
+    </section>
+
+    <section>
+        @include('frontend.home.brand')
+    </section>
+
+    <section>
+        @include('frontend.home.jmango')
+    </section>
 @endsection
 
 
