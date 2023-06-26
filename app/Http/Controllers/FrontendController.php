@@ -19,9 +19,9 @@ class FrontendController extends Controller
     }
 
 
-    public function store(Request $request)
+    public function feature()
     {
-        //
+        return view('frontend.features.index');
     }
 
 
