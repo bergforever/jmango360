@@ -1,10 +1,10 @@
 <section>
 
-    <nav class="bg-black border-gray-200 dark:bg-gray-900">
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
         <div class="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto p-4">
             <a href="https://flowbite.com" class="flex items-center">
                 <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Jmango360</span>
+                <span class="self-center text-2xl font-semibold whitespace-nowrap text-black">Jmango360</span>
             </a>
             <div class="flex items-center md:order-2">
                 <button data-collapse-toggle="mega-menu-icons" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mega-menu-icons" aria-expanded="false">
@@ -18,7 +18,7 @@
                         <a href="#" class="block py-2 pl-3 pr-4 text-main border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-main md:p-0 dark:text-blue-500 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">Home</a>
                     </li>--}}
                     <li>
-                        <button id="mega-menu-icons-dropdown-button" data-dropdown-toggle="mega-menu-icons-dropdown" class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-white border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-main md:p-0">
+                        <button id="mega-menu-icons-dropdown-button" data-dropdown-toggle="mega-menu-icons-dropdown" class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-black border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-main md:p-0">
                             B2C
                             <svg aria-hidden="true" class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                         </button>
@@ -124,7 +124,7 @@
                         </div>
                     </li>
                     <li>
-                        <button id="mega-menu-icons-dropdown-button1" data-dropdown-toggle="mega-menu-icons-dropdown1" class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-white border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-main md:p-0 ">
+                        <button id="mega-menu-icons-dropdown-button1" data-dropdown-toggle="mega-menu-icons-dropdown1" class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-black border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-main md:p-0 ">
                             B2B
                             <svg aria-hidden="true" class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                         </button>
@@ -218,17 +218,17 @@
                         </div>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-main md:p-0 ">Customers</a>
+                        <a href="#" class="block py-2 pl-3 pr-4 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-main md:p-0 ">Customers</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-main md:p-0 ">Pricing</a>
+                        <a href="#" class="block py-2 pl-3 pr-4 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-main md:p-0 ">Pricing</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-main md:p-0">For Agencies
+                        <a href="#" class="block py-2 pl-3 pr-4 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-main md:p-0">For Agencies
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-main md:p-0 ">Blog
+                        <a href="#" class="block py-2 pl-3 pr-4 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-main md:p-0 ">Blog
                         </a>
                     </li>
                 </ul>

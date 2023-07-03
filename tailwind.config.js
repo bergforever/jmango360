@@ -9,10 +9,12 @@ module.exports = {
     theme: {
         extend: {},
         colors: {
-            main: '#c4ad8f',
+            main: '#a10000',
+            custom: '#a10000',
+            custom_black: '#0d0d0d',
         },
     },
-    
+
     plugins: [
         require('flowbite/plugin')
     ],

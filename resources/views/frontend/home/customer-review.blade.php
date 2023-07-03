@@ -8,16 +8,7 @@
 
 <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-<style>
-    .stroke{
-        text-shadow: -1px -1px 0 #c4ad8f,
-        1px -1px 0 #c4ad8f,
-        -1px 1px 0 #c4ad8f,
-        1px 1px 0 #c4ad8f;
-        color: #efefef!important;
-    }
-</style>
-<section class="bg-gray-100">
+<section>
     <div
         class="mx-auto max-w-[1340px] px-4 py-16 sm:px-6 sm:py-24 lg:me-0 lg:pe-0 lg:ps-8"
     >
@@ -27,12 +18,12 @@
             <div class="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
                 <h2 class="text-3xl font-bold tracking-tight sm:text-[50px] text-left">
                     <div class="pb-4">Reviews from our</div>
-                    <div class="stroke">customers</div>
+                    <div class="text-main">customers</div>
                 </h2>
 
                 <div class="hidden lg:mt-8 lg:flex lg:gap-4">
                     <button
-                        class="prev-button rounded-full border border-pink-600 p-3 text-pink-600 hover:bg-pink-600 hover:text-white"
+                        class="prev-button rounded-full border border-main p-3 text-black hover:bg-main hover:text-white"
                     >
                         <span class="sr-only">Previous Slide</span>
                         <svg
@@ -52,7 +43,7 @@
                     </button>
 
                     <button
-                        class="next-button rounded-full border border-pink-600 p-3 text-pink-600 hover:bg-pink-600 hover:text-white"
+                        class="next-button rounded-full  border border-main p-3 text-black hover:bg-main hover:text-white"
                     >
                         <span class="sr-only">Next Slide</span>
                         <svg
@@ -139,7 +130,7 @@
                                     </div>--}}
 
                                     <div class="mt-4">
-                                        <p class="text-2xl font-bold text-pink-600 sm:text-3xl">
+                                        <p class="text-2xl font-bold text-main sm:text-3xl">
                                             Oliver Cole
                                         </p>
 
@@ -166,7 +157,7 @@
                             >
                                 <div>
                                     <div class="mt-4">
-                                        <p class="text-2xl font-bold text-pink-600 sm:text-3xl">
+                                        <p class="text-2xl font-bold text-main sm:text-3xl">
                                             Sheida Ngoi
                                         </p>
 
@@ -191,7 +182,7 @@
                             >
                                 <div>
                                     <div class="mt-4">
-                                        <p class="text-2xl font-bold text-pink-600 sm:text-3xl">
+                                        <p class="text-2xl font-bold text-main sm:text-3xl">
                                             Nicholas Bendon
                                         </p>
 
@@ -218,7 +209,7 @@
                             >
                                 <div>
                                     <div class="mt-4">
-                                        <p class="text-2xl font-bold text-pink-600 sm:text-3xl">
+                                        <p class="text-2xl font-bold text-main sm:text-3xl">
                                             Jentry Kelley
                                         </p>
 
@@ -244,7 +235,7 @@
                             >
                                 <div>
                                     <div class="mt-4">
-                                        <p class="text-2xl font-bold text-pink-600 sm:text-3xl">
+                                        <p class="text-2xl font-bold text-main sm:text-3xl">
                                             Tyler Hicks
                                         </p>
 

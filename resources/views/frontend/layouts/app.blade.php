@@ -9,7 +9,7 @@
     @vite(['resources/css/app.css','resources/js/app.js'])
 </head>
 <body>
-<div class='loading h-1 w-[0%] bg-red-500 transition-all duration-200 absolute z-40 top-0 '></div>
+<div class='loading h-1 w-[0%] bg-custom transition-all duration-200 absolute z-40 top-0 '></div>
     @include('frontend.layouts.navbar')
     @yield('content')
     @include('frontend.layouts.footer')
