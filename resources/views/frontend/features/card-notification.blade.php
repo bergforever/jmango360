@@ -1,6 +1,6 @@
 <section>
     <div class="relative flex flex-col items-center max-w-screen-xl px-4 mx-auto md:flex-row sm:px-6 p-8">
-        <div class="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pr-10">
+        <div class="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pr-10 bg-white rounded-lg shadow-lg shadow-main">
             <div class="lg:pl-16 md:pl-20 pl-10">
                 <h2
                     class="text-4xl font-bold leading-10 tracking-tight text-black sm:text-5xl sm:leading-none md:text-5xl">

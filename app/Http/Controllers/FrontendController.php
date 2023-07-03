@@ -25,9 +25,9 @@ class FrontendController extends Controller
     }
 
 
-    public function show(string $id)
+    public function pricing()
     {
-        //
+        return view('frontend.pricing.index');
     }
 
     public function edit(string $id)

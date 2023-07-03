@@ -221,7 +221,7 @@
                         <a href="#" class="block py-2 pl-3 pr-4 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-main md:p-0 ">Customers</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 pl-3 pr-4 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-main md:p-0 ">Pricing</a>
+                        <a href="{{route('pricing')}}" class="block py-2 pl-3 pr-4 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-main md:p-0 ">Pricing</a>
                     </li>
                     <li>
                         <a href="#" class="block py-2 pl-3 pr-4 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-main md:p-0">For Agencies

@@ -1,16 +1,16 @@
 @extends('frontend.layouts.app')
 @section('content')
-    <section class="bg-[#0f1111]">
+    <section class="">
     <div class="relative flex flex-col items-center max-w-screen-xl px-4 mx-auto md:flex-row sm:px-6 p-8">
         <div class="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pr-10">
             <div class="text-left">
-                <div class="text-white">JMANGO360 EXPLAINED</div>
+                <div class="text-black">JMANGO360 EXPLAINED</div>
                 <h2
-                    class="text-4xl font-extrabold leading-10 tracking-tight text-white sm:text-5xl sm:leading-none md:text-6xl">
+                    class="text-4xl font-extrabold leading-10 tracking-tight text-main sm:text-5xl sm:leading-none md:text-6xl">
                     App features
 
                 </h2>
-                <p class="max-w-md mx-auto mt-3 text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+                <p class="max-w-md mx-auto mt-3 text-base text-black sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                     Learn about the core and advanced app features you’ll have access to. From segmented push
                     notifications to custom UI and all the different check-out options.
                 </p>
@@ -40,9 +40,7 @@
     </div>
     </section>
 
-    <section>
-        @include('frontend.features.carosel')
-    </section>
+
 
     <section>
         @include('frontend.features.plans')
@@ -55,7 +53,9 @@
     <section>
         @include('frontend.features.screen-design')
     </section>
-
+    <section>
+        @include('frontend.features.carosel')
+    </section>
     <section>
         @include('frontend.features.customize-ui-app')
     </section>
