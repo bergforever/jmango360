@@ -53,13 +53,13 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-main dark:hover:text-blue-500 group">
+                                        <a href="{{route('fashion')}}" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-main dark:hover:text-blue-500 group">
                                             <svg class="w-4 h-4 mr-2 text-gray-400 dark:text-gray-500 group-hover:text-main dark:group-hover:text-blue-500" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z"></path></svg>
                                             Fashion Native App
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-main dark:hover:text-blue-500 group">
+                                        <a href="{{route('cosmetic')}}" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-main dark:hover:text-blue-500 group">
                                             <svg class="w-4 h-4 mr-2 text-gray-400 dark:text-gray-500 group-hover:text-main dark:group-hover:text-blue-500" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"></path></svg>
                                             Cosmetics Native App
                                         </a>

@@ -1,4 +1,4 @@
-<section>
+{{--<section>
     <div class="relative flex flex-col items-center max-w-screen-xl px-4 mx-auto md:flex-row sm:px-6 p-8">
         <div class="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pr-10">
             <div class="lg:pl-20 md:pl-20 pl-10">
@@ -37,8 +37,37 @@
             </div>
         </div>
     </div>
-    </section>
+    </section>--}}
 
+<section class="mt-14 pb-28">
+    <div class="container flex flex-col-reverse mx-auto lg:flex-row">
+        <div class="flex text-left justify-center items-center flex-col py-8 space-y-6 rounded-sm sm:p-8 lg:p-12 lg:w-1/2 xl:w-3/5 bg-violet-400 text-gray-900">
+            <div class="w-[90%] max-w-md px-8 lg:py-10 md:py-10 py-6 lg:pl-20 md:pl-20 lg:mt-16 md:mt-16 bg-white rounded-lg shadow-lg shadow-main">
+
+                <h2 class="mt-2 text-sm font-semibold text-black dark:text-white md:mt-0">NATIVE APP ROI CALCULATOR</h2>
+                <h2 class="mt-2 text-3xl font-bold text-main md:mt-0">Calculate your ROI</h2>
+
+                <p class="mt-2 text-md text-gray-600 dark:text-gray-200">Making decisions without data is like driving with your eyes closed. So, fill out some key KPI’s and you’ll know in an instant how much yearly revenue an app will generate for you.</p>
+
+                <div class="flex justify-start mt-4">
+                    <a href=""
+                       class="flex  items-center justify-center w-full px-4 py-3 text-sm font-bold leading-6 capitalize duration-100 transform border-2 rounded-lg cursor-pointer border-custom  focus:ring-4 focus:custom focus:ring-opacity-50 focus:outline-none sm:w-auto sm:px-6 border-text  hover:shadow-lg hover:bg-custom hover:text-white hover:-translate-y-1">
+                        Read more
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="lg:w-1/2 xl:w-3/5">
+            <div class="rounded-lg h-[50%] aspect-video sm:min-h-[80%] flex text-left items-start justify-start p-4 md:p-8 lg:p-12 lg:pt-0">
+                <div class="relative w-full p-3 rounded  md:p-8">
+                    <div class="text-center justify-center items-center rounded-lg bg-white text-black w-full">
+                        <img src="{{asset('assets/native-img/calculator-jmango-native-apps.png')}}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 

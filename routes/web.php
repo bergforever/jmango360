@@ -16,6 +16,8 @@ use App\Http\Controllers\FrontendController;
 
 
 Route::get('/',  [FrontendController::class, 'index']);
-Route::get('native-app',  [FrontendController::class, 'nativeApp'])->name('native');
+Route::get('ecommerce',  [FrontendController::class, 'nativeApp'])->name('native');
 Route::get('feature',  [FrontendController::class, 'feature'])->name('feature');
+Route::get('fashion',  [FrontendController::class, 'fashion'])->name('fashion');
+Route::get('cosmetic',  [FrontendController::class, 'cosmetic'])->name('cosmetic');
 

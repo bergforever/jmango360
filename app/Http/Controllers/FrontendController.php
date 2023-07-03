@@ -15,7 +15,7 @@ class FrontendController extends Controller
 
     public function nativeApp()
     {
-        return view('frontend.native-app.index');
+        return view('frontend.ecommerce-native-app.index');
     }
 
 
@@ -25,16 +25,15 @@ class FrontendController extends Controller
     }
 
 
-    public function show(string $id)
+    public function fashion()
     {
-        //
+        return view('frontend.fashion-native-app.index');
     }
 
-    public function edit(string $id)
+    public function cosmetic()
     {
-        //
+        return view('frontend.cosmetic-native-app.index');
     }
-
 
     public function update(Request $request, string $id)
     {
