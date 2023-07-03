@@ -30,6 +30,11 @@ class FrontendController extends Controller
         return view('frontend.fashion-native-app.index');
     }
 
+    public function pricing()
+    {
+        return view('frontend.pricing.index');
+    }
+
     public function cosmetic()
     {
         return view('frontend.cosmetic-native-app.index');

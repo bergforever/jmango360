@@ -5,7 +5,7 @@
             <div class="relative inline-flex items-center  align-middle">
                 <div class="">
                     <h1 class="max-w-4xl text-2xl font-bold  text-neutral-600 md:text-5xl lg:text-5xl lg:max-w-2xl">
-                        <span class="text-center text-black">
+                        <span class="text-center text-main">
                             Push notifcations, from basic to advanced
                         </span>
                     </h1>

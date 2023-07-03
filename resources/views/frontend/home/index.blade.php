@@ -1,4 +1,5 @@
 @extends('frontend.layouts.app')
+@section('title', 'Home')
 @section('content')
    {{-- <section>
     <div class="relative flex flex-col items-center max-w-screen-xl px-4 mx-auto md:flex-row sm:px-6 p-8">
