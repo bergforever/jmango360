@@ -65,7 +65,7 @@
         </div>
 
         <div class="flex items-center justify-center w-full h-full lg:w-3/5">
-            <img class="w-[80%] h-full" src="{{asset('assets/supplement-img/design-mobile-app-supplements-vitamines-industry.png')}}" alt="">
+            <img class="lg:w-[80%] lg:h-full md:w-[80%] md:h-full " src="{{asset('assets/supplement-img/design-mobile-app-supplements-vitamines-industry.png')}}" alt="">
         </div>
     </div>
 </section>

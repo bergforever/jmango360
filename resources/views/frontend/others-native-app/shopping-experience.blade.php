@@ -1,19 +1,18 @@
-<section class="bg-white lg:py-24 md:py-24 lg:mt-0 md:mt-0 mt-16">
+<section class="bg-white lg:py-56 md:py-24 lg:mt-0 md:mt-0 mt-14">
     <div class="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center">
-        <div class="flex items-center justify-center  lg:w-3/5">
-            <img
-                src="{{asset('assets/supplement-img/native-payment.png')}}" alt="">
+
+        <div class="flex items-center justify-center w-full h-full lg:w-3/5">
+            <img class=" lg:h-[35em] md:h-[35em] " src="{{asset('assets/others-img/fashion.png')}}" alt="">
         </div>
         <div class="w-full lg:w-2/5">
             <div class="lg:max-w-lg">
-                <p class="font-bold text-xs">EASY NATIVE CHECKOUT</p>
+                {{--<p class="font-bold text-xs">ON BRAND DESIGN</p>--}}
                 <h1 class="text-3xl font-bold tracking-wide text-main lg:text-4xl">
-                    Higher conversion
+                    Inspirational shopping experience
                 </h1>
                 <br>
-                <p>Our apps are built to convert. With one tab checkout, you’ll see your conversion rates going up Get
-                    pre-filled customer data, payment integration and on tab payment, resulting in up to 3x higher
-                    conversion rates.</p>
+                <p>Offer your customers a magazine-like shopping experience. Think of optimized search, smart navigation
+                    and interactive recommendations will take mobile shopping from good to great.</p>
 
                 <div class="mt-8 space-y-5 justify-end items-end text-right">
                     <p class="flex items-center -mx-2 text-gray-700">
@@ -23,8 +22,8 @@
                                   d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                         </svg>
 
-                        <span class="mx-2 text-black text-left font-bold">Payment integrations</span>
-                    <p class="ml-8 text-left">Apple Pay, Google Pay, Paypal… they are all integrated</p>
+                        <span class="mx-2 text-black text-left font-bold">Smart navigation</span>
+                    <p class="ml-8 text-left">Easy filtering and sorting.</p>
                     </p>
 
 
@@ -35,9 +34,21 @@
                                   d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                         </svg>
 
-                        <span class="mx-2 text-black text-left font-bold">Pre-filled customer data</span>
-                    <p class="ml-8 text-left">Pre-filled shipping and customer data add convenience</p>
+                        <span class="mx-2 text-black text-left font-bold">Optimized search</span>
+                    <p class="ml-8 text-left">Smart reccomendations.</p>
                     </p>
+
+                    <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-2 text-main" fill="none"
+                             viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+
+                        <span class="mx-2 text-black text-left font-bold">Shopable Look-books</span>
+                    <p class="ml-8 text-left">Shopable look-books make your customers drool.</p>
+                    </p>
+
                 </div>
             </div>
 
@@ -54,6 +65,5 @@
                 </a>
             </div>
         </div>
-
     </div>
 </section>

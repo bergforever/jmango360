@@ -44,8 +44,9 @@ class FrontendController extends Controller
     {
         return view('frontend.supplements-native-app.index');
     }
-    public function destroy(string $id)
+    public function other()
     {
-        //
+        return view('frontend.others-native-app.index');
+
     }
 }

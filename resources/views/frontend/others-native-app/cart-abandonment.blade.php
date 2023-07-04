@@ -1,19 +1,16 @@
 <section class="bg-white lg:py-24 md:py-24 lg:mt-0 md:mt-0 mt-16">
     <div class="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center">
-        <div class="flex items-center justify-center  lg:w-3/5">
-            <img
-                src="{{asset('assets/supplement-img/native-payment.png')}}" alt="">
-        </div>
         <div class="w-full lg:w-2/5">
             <div class="lg:max-w-lg">
-                <p class="font-bold text-xs">EASY NATIVE CHECKOUT</p>
-                <h1 class="text-3xl font-bold tracking-wide text-main lg:text-4xl">
-                    Higher conversion
+                {{--<p class="font-bold text-xs">EASY NATIVE CHECKOUT</p>--}}
+                <h1 class="text-3xl font-bold tracking-wide text-main lg:text-5xl">
+                    Say bye to cart abandonment
                 </h1>
                 <br>
-                <p>Our apps are built to convert. With one tab checkout, you’ll see your conversion rates going up Get
-                    pre-filled customer data, payment integration and on tab payment, resulting in up to 3x higher
-                    conversion rates.</p>
+                <p>Our apps are built to convert. With one tab checkout, you’ll see your conversion rates going up and
+                    cart abandonment going down. Pre-filled customer data, payment integration and on tab payment
+                    options make it as smooth as can be.
+                </p>
 
                 <div class="mt-8 space-y-5 justify-end items-end text-right">
                     <p class="flex items-center -mx-2 text-gray-700">
@@ -24,7 +21,7 @@
                         </svg>
 
                         <span class="mx-2 text-black text-left font-bold">Payment integrations</span>
-                    <p class="ml-8 text-left">Apple Pay, Google Pay, Paypal… they are all integrated</p>
+                    <p class="ml-8 text-left">Apple Pay, Google Pay, PayPal.. They are all integrated.</p>
                     </p>
 
 
@@ -36,7 +33,7 @@
                         </svg>
 
                         <span class="mx-2 text-black text-left font-bold">Pre-filled customer data</span>
-                    <p class="ml-8 text-left">Pre-filled shipping and customer data add convenience</p>
+                    <p class="ml-8 text-left">Pre-filled shipping- and customer data add convenience.</p>
                     </p>
                 </div>
             </div>
@@ -54,6 +51,15 @@
                 </a>
             </div>
         </div>
-
+        <div class="flex items-center justify-center  lg:w-3/5">
+            <div class="relative w-full p-3 rounded  md:p-8">
+                <div class="rounded-lg bg-white text-black w-full">
+                    <video autoplay loop muted>
+                        <source src="{{asset('assets/others-img/video/Jmango_product-features_Abandoned-Cart-1-1_2.mp4')}}" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
     </div>
 </section>

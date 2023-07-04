@@ -20,8 +20,8 @@
             </div>
         </div>
         <div
-            class="lg:ml-48 md:ml-48  rounded-lg bg-white text-black lg:w-[60%] lg:h-[50%] md:w-[60%] md:h-[50%] flex justify-center text-center items-center">
-            <img class="lg:ml-0 md:ml-0 lg:w-full lg:h-[50%] md:w-[80%] md:h-[50%]"
+            class="lg:ml-48 md:ml-48 ml-14  rounded-lg bg-white text-black lg:w-[60%] lg:h-[50%] md:w-[60%] md:h-[50%] flex justify-center text-center items-center">
+            <img class="lg:ml-0 md:ml-0 lg:w-full lg:h-[50%] md:w-[80%] md:h-[50%] h-full w-full"
                  src="{{asset('assets/supplement-img/Vitamines-push-4-min-1140x1055.png')}}" alt="">
         </div>
     </div>

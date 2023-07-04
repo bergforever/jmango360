@@ -22,4 +22,5 @@ Route::get('fashion',  [FrontendController::class, 'fashion'])->name('fashion');
 Route::get('cosmetic',  [FrontendController::class, 'cosmetic'])->name('cosmetic');
 Route::get('pricing',  [FrontendController::class, 'pricing'])->name('pricing');
 Route::get('supplement',  [FrontendController::class, 'supplement'])->name('supplement');
+Route::get('others',  [FrontendController::class, 'other'])->name('other');
 

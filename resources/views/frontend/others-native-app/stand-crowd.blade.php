@@ -1,19 +1,16 @@
-<section class="bg-white lg:py-24 md:py-24 lg:mt-0 md:mt-0 mt-16">
+<section class="bg-white lg:py-24 md:py-24 lg:mt-0 md:mt-0 mt-6">
     <div class="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center">
-        <div class="flex items-center justify-center  lg:w-3/5">
-            <img
-                src="{{asset('assets/supplement-img/native-payment.png')}}" alt="">
-        </div>
-        <div class="w-full lg:w-2/5">
+        <div class="w-full lg:w-3/5">
             <div class="lg:max-w-lg">
-                <p class="font-bold text-xs">EASY NATIVE CHECKOUT</p>
-                <h1 class="text-3xl font-bold tracking-wide text-main lg:text-4xl">
-                    Higher conversion
+                {{--<p class="font-bold text-xs">EASY NATIVE CHECKOUT</p>--}}
+                <h1 class="text-3xl font-bold tracking-wide text-main lg:text-5xl">
+                    Stand out from the crowd
                 </h1>
                 <br>
-                <p>Our apps are built to convert. With one tab checkout, you’ll see your conversion rates going up Get
-                    pre-filled customer data, payment integration and on tab payment, resulting in up to 3x higher
-                    conversion rates.</p>
+                <p>Every brand is different. So should their app experience be. Experienced designers will make your
+                    look and feel unique, focusing on every minor detail. From your homepage to the navigation and
+                    filtering. All to make customers want to spend more time in your app.
+                </p>
 
                 <div class="mt-8 space-y-5 justify-end items-end text-right">
                     <p class="flex items-center -mx-2 text-gray-700">
@@ -23,8 +20,8 @@
                                   d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                         </svg>
 
-                        <span class="mx-2 text-black text-left font-bold">Payment integrations</span>
-                    <p class="ml-8 text-left">Apple Pay, Google Pay, Paypal… they are all integrated</p>
+                        <span class="mx-2 text-black text-left font-bold">On brand design</span>
+                        <p class="ml-8 text-left">We’ll design the app based on your wishes</p>
                     </p>
 
 
@@ -35,8 +32,8 @@
                                   d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                         </svg>
 
-                        <span class="mx-2 text-black text-left font-bold">Pre-filled customer data</span>
-                    <p class="ml-8 text-left">Pre-filled shipping and customer data add convenience</p>
+                        <span class="mx-2 text-black text-left font-bold">Fast and easy launch</span>
+                    <p class="ml-8 text-left">Get your app live in just a few weeks</p>
                     </p>
                 </div>
             </div>
@@ -54,6 +51,9 @@
                 </a>
             </div>
         </div>
-
+        <div class="flex items-center justify-center  lg:w-2/5">
+            <img
+                src="{{asset('assets/others-img/smartmockups_designV2.webp')}}" alt="">
+        </div>
     </div>
 </section>
