@@ -40,9 +40,9 @@ class FrontendController extends Controller
         return view('frontend.cosmetic-native-app.index');
     }
 
-    public function update(Request $request, string $id)
+    public function supplement()
     {
-        //
+        return view('frontend.supplements-native-app.index');
     }
     public function destroy(string $id)
     {
