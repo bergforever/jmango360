@@ -49,4 +49,12 @@ class FrontendController extends Controller
         return view('frontend.others-native-app.index');
 
     }
+    public function magento()
+    {
+        return view('frontend.magento.index');
+    }
+    public function commerce()
+    {
+        return view('frontend.big-commerce.index');
+    }
 }

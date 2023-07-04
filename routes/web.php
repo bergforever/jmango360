@@ -23,4 +23,6 @@ Route::get('cosmetic',  [FrontendController::class, 'cosmetic'])->name('cosmetic
 Route::get('pricing',  [FrontendController::class, 'pricing'])->name('pricing');
 Route::get('supplement',  [FrontendController::class, 'supplement'])->name('supplement');
 Route::get('others',  [FrontendController::class, 'other'])->name('other');
+Route::get('magento',  [FrontendController::class, 'magento'])->name('magento');
+Route::get('big-commerce',  [FrontendController::class, 'commerce'])->name('big-commerce');
 
