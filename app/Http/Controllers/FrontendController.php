@@ -67,4 +67,8 @@ class FrontendController extends Controller
     {
         return view('frontend.light-speed.index');
     }
+    public function shopify()
+    {
+        return view('frontend.shopify.index');
+    }
 }

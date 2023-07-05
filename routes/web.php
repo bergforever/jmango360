@@ -27,4 +27,5 @@ Route::get('magento',  [FrontendController::class, 'magento'])->name('magento');
 Route::get('big-commerce',  [FrontendController::class, 'commerce'])->name('big-commerce');
 Route::get('sales-force',  [FrontendController::class, 'salesForce'])->name('sales-force');
 Route::get('light-speed',  [FrontendController::class, 'lightSpeed'])->name('light-speed');
+Route::get('shopify',  [FrontendController::class, 'shopify'])->name('shopify');
 
