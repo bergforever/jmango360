@@ -57,4 +57,14 @@ class FrontendController extends Controller
     {
         return view('frontend.big-commerce.index');
     }
+    public function salesForce()
+    {
+        return view('frontend.sales-force.index');
+    }
+
+
+    public function lightSpeed()
+    {
+        return view('frontend.light-speed.index');
+    }
 }
