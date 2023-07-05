@@ -61,8 +61,6 @@ class FrontendController extends Controller
     {
         return view('frontend.sales-force.index');
     }
-
-
     public function lightSpeed()
     {
         return view('frontend.light-speed.index');
@@ -70,5 +68,9 @@ class FrontendController extends Controller
     public function shopify()
     {
         return view('frontend.shopify.index');
+    }
+    public function b2bBigcommerce()
+    {
+        return view('frontend.b2b-bigcommerce.index');
     }
 }

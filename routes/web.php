@@ -16,6 +16,9 @@ use App\Http\Controllers\FrontendController;
 
 
 Route::get('/',  [FrontendController::class, 'index']);
+
+//Routes for B2C
+
 Route::get('ecommerce',  [FrontendController::class, 'nativeApp'])->name('native');
 Route::get('feature',  [FrontendController::class, 'feature'])->name('feature');
 Route::get('fashion',  [FrontendController::class, 'fashion'])->name('fashion');
@@ -29,3 +32,6 @@ Route::get('sales-force',  [FrontendController::class, 'salesForce'])->name('sal
 Route::get('light-speed',  [FrontendController::class, 'lightSpeed'])->name('light-speed');
 Route::get('shopify',  [FrontendController::class, 'shopify'])->name('shopify');
 
+//Routes for B2B
+
+Route::get('b2b-bigcommerce',  [FrontendController::class, 'b2bBigcommerce'])->name('b2b-bigcommerce');
