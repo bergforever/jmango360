@@ -77,4 +77,12 @@ class FrontendController extends Controller
     {
         return view('frontend.b2b-ordering-app.index');
     }
+    public function customers()
+    {
+        return view('frontend.customers.index');
+    }
+    public function blog()
+    {
+        return view('frontend.blog.index');
+    }
 }

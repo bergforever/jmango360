@@ -123,7 +123,7 @@
                             </div>
                         </div>
                     </li>
-                    <li>
+                    {{--<li>
                         <button id="mega-menu-icons-dropdown-button1" data-dropdown-toggle="mega-menu-icons-dropdown1" class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-black border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-main md:p-0 ">
                             B2B
                             <svg aria-hidden="true" class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
@@ -158,7 +158,7 @@
                                     </li>
                                 </ul>
                             </div>
-                           {{-- <div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
+                           --}}{{-- <div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
                                 <ul class="space-y-4">
                                     <li>
                                         <a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-main dark:hover:text-blue-500 group">
@@ -214,21 +214,21 @@
                                         </a>
                                     </li>
                                 </ul>
-                            </div>--}}
+                            </div>--}}{{--
                         </div>
-                    </li>
+                    </li>--}}
                     <li>
-                        <a href="#" class="block py-2 pl-3 pr-4 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-main md:p-0 ">Customers</a>
+                        <a href="{{route('customers')}}" class="block py-2 pl-3 pr-4 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-main md:p-0 ">Customers</a>
                     </li>
                     <li>
                         <a href="{{route('pricing')}}" class="block py-2 pl-3 pr-4 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-main md:p-0 ">Pricing</a>
                     </li>
-                    <li>
+                    {{--<li>
                         <a href="#" class="block py-2 pl-3 pr-4 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-main md:p-0">For Agencies
                         </a>
-                    </li>
+                    </li>--}}
                     <li>
-                        <a href="#" class="block py-2 pl-3 pr-4 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-main md:p-0 ">Blog
+                        <a href="{{route('blog')}}" class="block py-2 pl-3 pr-4 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-main md:p-0 ">Blog
                         </a>
                     </li>
                 </ul>

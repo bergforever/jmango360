@@ -74,10 +74,7 @@
         @include('frontend.b2b-ordering-app.payment')
     </section>
 
-
-    <h1 class="text-9xl text-black">end</h1>
-
-    <section>
+   {{-- <section>
         @include('frontend.b2b-ordering-app.quotes')
     </section>
 
@@ -119,7 +116,7 @@
     <section>
         @include('frontend.b2b-ordering-app.plugin-integration')
     </section>
-
+--}}
     <section>
         @include('frontend.b2b-ordering-app.jmango')
     </section>
