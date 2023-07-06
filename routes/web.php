@@ -35,3 +35,4 @@ Route::get('shopify',  [FrontendController::class, 'shopify'])->name('shopify');
 //Routes for B2B
 
 Route::get('b2b-bigcommerce',  [FrontendController::class, 'b2bBigcommerce'])->name('b2b-bigcommerce');
+Route::get('b2b-ordering-app',  [FrontendController::class, 'orderApp'])->name('ordering-app');
