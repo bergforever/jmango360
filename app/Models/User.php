@@ -42,4 +42,8 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+	public function getImageAttribute($image): string
+    {
+        return $image ? asset('images/user_profile/' . $image) : asset('images/user_profile/avatar.png');
+    }
 }
